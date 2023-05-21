@@ -33,3 +33,30 @@ a {
     text-decoration: none;
 }
 
+
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+}
+
+.navbar {
+    padding: 10px;
+}
+
+.navbar-dark {
+     background-color: #512DA8;
+}
+
+
+.breadcrumb {
+    background-color: #f8f9fa;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+.breadcrumb-item {
+    font-size: 16px;
+    color: #333;
+}
+
+
