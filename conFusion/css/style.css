@@ -1,18 +1,18 @@
-.row-header{
-    margin:0px auto;
-    padding:0px;
+.row-header {
+    margin: 0px auto;
+    padding: 0px;
 }
 
 .row-content {
-    margin:0px auto;
+    margin: 0px auto;
     padding: 50px 0px 50px 0px;
     border-bottom: 1px ridge;
-    min-height:400px;
+    min-height: 400px;
 }
 
-.footer{
+.footer {
     background-color: #D1C4E9;
-    margin:0px auto;
+    margin: 0px auto;
     padding: 20px 0px 20px 0px;
 }
 
@@ -23,10 +23,10 @@
     color: floralwhite;
 }
 
-address{
-    font-size:80%;
-    margin:0px;
-    color:#0f0f0f;
+address {
+    font-size: 80%;
+    margin: 0px;
+    color: #0f0f0f;
 }
 
 a {
@@ -34,9 +34,9 @@ a {
 }
 
 
-body{
-    padding:50px 0px 0px 0px;
-    z-index:0;
+body {
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
 }
 
 .navbar {
@@ -44,7 +44,7 @@ body{
 }
 
 .navbar-dark {
-     background-color: #512DA8;
+    background-color: #512DA8;
 }
 
 
@@ -64,4 +64,44 @@ body{
     border-right: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
     padding: 10px;
+}
+
+.carousel {
+    background: #512DA8;
+}
+
+.carousel-item {
+    height: 250px;
+}
+
+.carousel-item img {
+    min-height: 250px;
+}
+
+@media (min-width: 768px) {
+    .carousel {
+        background: #512DA8;
+    }
+
+    .carousel-item {
+        height: 300px;
+    }
+
+    .carousel-item img {
+        min-height: 300px;
+    }
+}
+
+@media (min-width: 992px) {
+    .carousel {
+        background: #512DA8;
+    }
+
+    .carousel-item {
+        height: 350px;
+    }
+
+    .carousel-item img {
+        min-height: 350px;
+    }
 }
