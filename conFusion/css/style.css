@@ -35,6 +35,7 @@ a {
 
 
 body {
+    /* font-family: "Arial", sans-serif; */
     padding: 50px 0px 0px 0px;
     z-index: 0;
 }
@@ -78,6 +79,13 @@ body {
     min-height: 250px;
 }
 
+#carouselButton {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+}
+
 @media (min-width: 768px) {
     .carousel {
         background: #512DA8;
@@ -103,5 +111,11 @@ body {
 
     .carousel-item img {
         min-height: 350px;
+    }
+
+    .carousel-caption {
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: calc(1em + 3px);
     }
 }
